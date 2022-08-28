@@ -1,4 +1,4 @@
-package edu.demo.webappdemo1.config;
+package net.codejava.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan("edu.demo.webappdemo1")
+@ComponentScan("net.codejava")
 public class WebMvcConfig {
 
     @Bean(name = "viewResolver")

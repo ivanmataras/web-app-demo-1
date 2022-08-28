@@ -1,4 +1,4 @@
-package edu.demo.webappdemo1.customer;
+package net.codejava.customer;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
