@@ -15,4 +15,5 @@
             <property name="hibernate.format_sql" value="true"/> <!-- Show SQL formatted -->
         </properties>
     </persistence-unit>
+
 </persistence>
