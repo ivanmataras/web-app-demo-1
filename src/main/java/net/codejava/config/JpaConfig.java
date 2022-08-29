@@ -27,5 +27,4 @@ public class JpaConfig {
         transactionManager.setEntityManagerFactory(entityManagerFactory);
         return transactionManager;
     }
-
 }
