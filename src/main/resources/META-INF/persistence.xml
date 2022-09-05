@@ -6,10 +6,11 @@
     <persistence-unit name="SalesDB" transaction-type="RESOURCE_LOCAL">
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/SalesDB"/> <!-- BD Mane -->
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:postgresql://localhost:5432/SalesDB"/> <!-- BD Mane -->
             <property name="javax.persistence.jdbc.user" value="postgres"/> <!-- DB User -->
             <property name="javax.persistence.jdbc.password" value="postgres"/> <!-- DB Password -->
-            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL10Dialect"/> <!-- DB Dialect -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> <!-- DB Dialect -->
             <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- create / create-drop / update -->
             <property name="hibernate.show_sql" value="true"/> <!-- Show SQL in console -->
             <property name="hibernate.format_sql" value="true"/> <!-- Show SQL formatted -->
